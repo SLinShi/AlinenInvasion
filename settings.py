@@ -3,6 +3,9 @@ class Settings:
 
     def __init__(self):
         #  初始化游戏设置
-        self.screen_width = 1000 # 游戏窗口的大小
+        self.screen_width = 1000  # 游戏窗口的大小
         self.screen_height = 600
         self.bg_color = (230, 230, 230)  # 背景颜色设置
+
+        # 飞船速度设置
+        self.ship_speed = 1.5
