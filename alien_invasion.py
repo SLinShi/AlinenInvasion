@@ -13,4 +13,5 @@ class AlinenInvasion:
 
     def run_game(self):
         # 开始游戏主循环
-        
+        while Ture:
+            
